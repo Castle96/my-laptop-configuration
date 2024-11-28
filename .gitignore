@@ -1,0 +1,12 @@
+# Ignore system-specific files
+hardware-configuration.nix
+
+# Ignore editor and IDE files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore Nix store paths
+/result
+*.drv
